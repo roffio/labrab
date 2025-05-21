@@ -8,5 +8,5 @@ def s(local: list) -> list:
                 local[i - 1] = local[i]
                 local[i] = temp
     return local
-
+#добавил комментарий
 print(s(l))
